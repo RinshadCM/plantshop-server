@@ -8,7 +8,7 @@ const cartRoutes = require('./routes/cart');
 
 const app = express();
 const PORT = 5000;
-const MONGO_URI = 'mongodb://localhost:27017/plantshop';
+const MONGO_URI = 'mongodb+srv://rinshadcm7:1T4eF4x9Q0N0GYEQ@fliptree.exukp.mongodb.net/plantshop';
 
 app.use(cors());
 app.use(express.json());
